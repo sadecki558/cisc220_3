@@ -1,6 +1,6 @@
-#Joshua Burak - 10169785
-#Kat Pinto - 
-#Dhanish Chinniah - 
+#!/bin/bash
+#Josh Burak, Alexander Gadanidis, Kat Pinto, Matthew Sadecki
+#10169785 , 10186175, 10168919 , 10179995
 
 read -s -p 'Potential Password: ' password
 strength=0
