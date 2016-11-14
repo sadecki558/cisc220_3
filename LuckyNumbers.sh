@@ -15,4 +15,13 @@ while [ $x -gt 0 ]
 do
 digit=$(( $x % 10 )); x=$(( $x / 10 )); sumdigits=$(( $sumdigits + $digit ))
 done
+if [ $sumdigits -eq 10 ]
+then
+x=$sumdigits; digits=$(( $x % 10 )); x=$(( $x / 10 )); sumdigits=$(( $sumdigits + $digit ))
+fi
+if [ $sumdigits -eq 7 ]
+then
+echo "$y"
+fi
+y=$(( $y + 1 ))
 done
