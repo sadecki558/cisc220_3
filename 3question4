@@ -1,0 +1,3 @@
+
+
+lsblk –b /dev/sda >size.txt | sort –n size.txt | head –n3 | awk ‘{print $1}’
