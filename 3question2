@@ -1,0 +1,16 @@
+#!/bin/bash
+#Josh Burak, Alexander Gadanidis, Kat Pinto, Matthew Sadecki
+#10169785 , 10186175, 10168919 , 10179995
+
+read -p "Insert a collection of words: " -a arr
+
+for a in ${arr[@]}
+do
+    reverse=""
+    len=${#a}
+    for (( i=$len-1; i>=0; i--))
+    do
+        reverse="$reverse${a:$i:1}"
+    done
+    echo "$reverse"
+done
