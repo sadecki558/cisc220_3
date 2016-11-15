@@ -1,6 +1,6 @@
 #!/bin/bash
 #Josh Burak, Alexander Gadanidis, Kat Pinto, Matthew Sadecki
-# , 10186175, , 10179995
+#10169785 , 10186175, 10168919 , 10179995
 echo "Lucky numbers:"
 y=1000;
 while [ $y -lt 10000 ]
